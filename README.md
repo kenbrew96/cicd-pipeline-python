@@ -6,6 +6,7 @@ cicd-pipeline-python/
 ├── app.py
 ├── requirements.txt
 ├── .github/workflows/deploy.yml
+├── README.md 
 ```
 
 ### 📄 `app.py`
