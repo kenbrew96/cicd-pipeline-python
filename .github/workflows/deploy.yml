@@ -1,8 +1,13 @@
 yaml
 name: Deploy to AWS Lambda
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - master
+      - dev
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
